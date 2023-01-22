@@ -10,19 +10,19 @@ public class Main {
         double c=p.product(3.5, 4.5);
         System.out.println(c);
     }
+    public static class  Product{
+
+        public int product(int x, int y) {
+            return x*y;
+        }
+
+        public int product(int x, int y, int z) {
+            return x*y*z;
+        }
+
+        public double product(double x, double y) {
+            return x*y;
+        }
+    }
 }
 
-class Product{
-
-    public int product(int x, int y) {
-        return x*y;
-    }
-
-    public int product(int x, int y, int z) {
-        return x*y*z;
-    }
-
-    public double product(double x, double y) {
-        return x*y;
-    }
-}
